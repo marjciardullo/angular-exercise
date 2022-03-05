@@ -1,0 +1,9 @@
+<h2>Tabuada do 5</h2>
+<table>
+  <tbody>
+    <tr *ngFor="let num of Tabuada(5); index as i">
+      <td>5 x {{ i + 1 }} =</td>
+      <td>{{ num }}</td>
+    </tr>
+  </tbody>
+</table>
